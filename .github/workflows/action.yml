@@ -8,6 +8,8 @@ on:
     branches: [ master ]
     paths:
       - 'src/main/resources/*.json'
+  workflow_dispatch:    
+  
 
 jobs:
   build:
